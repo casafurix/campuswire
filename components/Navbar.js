@@ -3,9 +3,11 @@ import Image from "next/image";
 
 function Navbar() {
   return (
-    <nav className='flex justify-between'>
-      <p className='text-2xl font-extrabold text-gray-800'>campuswire</p>
-      <div className='flex'>
+    <nav className='flex md:justify-between md:flex md:items-center'>
+      <p className='text-2xl font-extrabold text-gray-800 p-8 md:flex'>
+        campuswire
+      </p>
+      <div className='md:flex p-8'>
         <a
           className='bg-white  text-blue-500 font-semibold py-2 px-4 rounded-lg'
           href='#'
