@@ -12,9 +12,11 @@ export default function Home() {
     <div>
       <Navbar />
       <FixedCard />
-      <Hero />
-      <HeroNav />
-      <CourseIntro />
+      <div className='pl-60 pr-60 pb-60'>
+        <Hero />
+        <HeroNav />
+        <CourseIntro />
+      </div>
     </div>
   );
 }

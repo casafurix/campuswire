@@ -1,6 +1,6 @@
 export default function CourseIntro() {
   return (
-    <div>
+    <div className=''>
       <div>
         <a href='#'>About this course</a>
       </div>
