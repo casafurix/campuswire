@@ -5,16 +5,21 @@ export default function FixedCard() {
     <div className='bg-gray-100 max-w-xs rounded-lg overflow-hidden'>
       <li>
         <h6 className='text-gray-400 font-semibold'>INSTRUCTOR</h6>
-        <Image
-          src='/img/1603387325878.png'
-          width={100}
-          height={50}
-          alt='profile-pic'
-        />
-        <h4 className='font-bold'>Charles Hudson</h4>
-        <p className='text-gray-500 text-sm w-40'>
-          Managing Partner at Precursor Ventures
-        </p>
+      </li>
+      <li>
+        <div className='flex'>
+          <Image
+            className='shadow rounded-full max-w-full h-auto align-middle border-none'
+            src='/1603387325878.png'
+            width={40}
+            height={40}
+            alt='profile-pic'
+          />
+          <h4 className='font-bold flex-row'>Charles Hudson</h4>
+          <p className='text-gray-500 text-sm w-40'>
+            Managing Partner at Precursor Ventures
+          </p>
+        </div>
       </li>
       <li>
         <h6 className='text-gray-400 font-semibold'>SEATS AVAILABLE</h6>
