@@ -20,7 +20,7 @@ export default function MeetYourInstructor() {
           className='float-left rounded-lg'
         />
         <div className='px-10'>
-          <p className=''>
+          <p className='tracking-wider'>
             Charles Hudson is the Managing Partner at Precursor Ventures, a
             classic seed stage investment firm based out of San Francisco, CA,
             and a Stanford University Lecturer. Precursor seeks to invest in a

@@ -13,7 +13,7 @@ export default function TeachingAssistants() {
               {/* <!-- Image --> */}
               <a
                 className='block focus:outline-none focus-visible:ring-2'
-                href='#0'
+                href='#'
               >
                 <figure className='relative h-0 pb-[56.25%] overflow-hidden'>
                   <Image

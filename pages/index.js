@@ -3,6 +3,8 @@ import Image from "next/image";
 import CourseIntro from "../components/CourseIntro";
 import FAQ from "../components/FAQ";
 import FixedCard from "../components/FixedCard";
+import Footer from "../components/Footer";
+import Footer1 from "../components/Footer1";
 import GuestSpeakers from "../components/GuestSpeakers";
 import Hero from "../components/Hero";
 import HeroNav from "../components/HeroNav";
@@ -32,6 +34,9 @@ export default function Home() {
         <GuestSpeakers />
         <br />
         <FAQ />
+        <br />
+        <Footer />
+        {/* <Footer1 /> */}
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ export default function GuestSpeakers() {
     <>
       <h1 className='text-xl font-black'>Guest Speakers</h1>
       <div className='flex-wrap py-6'>
-        <div className='col-md-6 flex'>
+        <div className='flex'>
           <div className='flex'>
             <Image
               src='/user-cyan.png'
@@ -14,7 +14,7 @@ export default function GuestSpeakers() {
               alt='user'
               className='rounded-full max-w-full'
             />
-            <p className='my-3'>To be announced</p>
+            <p className='my-3 mx-3'>To be announced</p>
           </div>
           <div className='flex'>
             <Image
@@ -24,7 +24,7 @@ export default function GuestSpeakers() {
               alt='user'
               className='rounded-full max-w-full'
             />
-            <p className='my-3'>To be announced</p>
+            <p className='my-3 mx-3'>To be announced</p>
           </div>
         </div>
       </div>
