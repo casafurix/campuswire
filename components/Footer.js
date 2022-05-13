@@ -3,8 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <hr />
-      <footer>
+      <footer className='p-60'>
         <div className='py-10'>
           <div className='max-w-7xl mx-auto'>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 tracking-wide'>
@@ -107,8 +106,7 @@ export default function Footer() {
                   <li className='pb-4'>
                     <a className='hover:text-blue-400' href='#'>
                       iOS app
-                    </a>{" "}
-                    iOS app
+                    </a>
                   </li>
                   <li className='pb-4'>
                     <a className='hover:text-blue-400' href='#'>
