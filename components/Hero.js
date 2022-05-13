@@ -21,27 +21,38 @@ export default function Hero() {
       <br />
       <hr />
       <br />
-      <div className='course-highlights items-start '>
-        <BsCameraVideo className='text-2xl' />
-        <h5 className='text-sm font-semibold'>Live classes</h5>
+      <div className=''>
+        <div className='flex'>
+          <BsCameraVideo className='text-2xl' />
+          <h5 className='text-md font-semibold px-2'>Live classes</h5>
+        </div>
         <p className='text-gray-400'>
           Classes are taught live on Campuswire platform. No pre-recorded
           videos.
         </p>
       </div>
+
       <br />
-      <div>
-        <GiPublicSpeaker className='text-2xl' />
-        <h5 className='text-sm font-semibold'>Weekly guest speakers</h5>
+
+      <div className=''>
+        <div className='flex'>
+          <GiPublicSpeaker className='text-2xl' />
+          <h5 className='text-md font-semibold px-2'>Weekly guest speakers</h5>
+        </div>
         <p className='text-gray-400'>
           Learn directly from the experts themselves. Featuring executives from
           Fortune 500 companies.
         </p>
       </div>
+
       <br />
+
       <div>
-        <IoMdGlobe className='text-2xl' />
-        <h5 className='text-sm font-semibold'>Lifelong community</h5>
+        <div className='flex'>
+          <IoMdGlobe className='text-2xl' />
+          <h5 className='text-md font-semibold px-2'>Lifelong community</h5>
+        </div>
+
         <p className='text-gray-400'>
           You will continue to have access to your cohort of exceptional
           founders and investors even after the course ends.

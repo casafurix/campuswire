@@ -1,13 +1,16 @@
 import Head from "next/head";
 import Image from "next/image";
 import CourseIntro from "../components/CourseIntro";
+import FAQ from "../components/FAQ";
 import FixedCard from "../components/FixedCard";
+import GuestSpeakers from "../components/GuestSpeakers";
 import Hero from "../components/Hero";
 import HeroNav from "../components/HeroNav";
 import ImageGrid from "../components/ImageGrid";
 import MeetYourInstructor from "../components/MeetYourInstructor";
 import Navbar from "../components/Navbar";
 import Syllabus from "../components/Syllabus";
+import TeachingAssistants from "../components/TeachingAssistants";
 
 export default function Home() {
   return (
@@ -23,6 +26,12 @@ export default function Home() {
         <Syllabus />
         <br />
         <MeetYourInstructor />
+        <br />
+        <TeachingAssistants />
+        <br />
+        <GuestSpeakers />
+        <br />
+        <FAQ />
       </div>
     </div>
   );
