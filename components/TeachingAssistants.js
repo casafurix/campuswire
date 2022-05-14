@@ -5,7 +5,7 @@ export default function TeachingAssistants() {
   return (
     <>
       <h1 className='text-xl font-black'>Teaching assistants</h1>
-      <div className='flex-wrap'>
+      <div className='flex'>
         <div className=' w-60 rounded-lg'>
           {/* <!-- Card --> */}
           <div className='max-w-xs mx-auto py-6'>

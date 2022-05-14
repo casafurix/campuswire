@@ -11,7 +11,15 @@ export default function Home() {
         <div className=''>
           <Layout />
         </div>
-        <div className='float-right'>
+        <div className=''>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <FixedCard />
         </div>
       </div>

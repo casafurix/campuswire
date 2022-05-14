@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-export default function ImageGrid() {
+export default function ImageGrid1() {
   return (
-    <div className='container mx-auto'>
-      <div className='grid-cols-4 py-10 px-1 space-y-2 lg:space-y-0 lg:grid lg:gap-1'>
-        <div className='w-full rounded'>
+    <div>
+      <div className='grid-cols-4 py-6'>
+        <div className=''>
           <Image
             src='/charles-thumbnail.png'
             width={195}
@@ -12,36 +12,30 @@ export default function ImageGrid() {
             alt='charles-thumbnail'
             className='rounded-l-lg'
           />
-        </div>
-        <div className='w-full col-span-2'>
-          <div>
-            <Image
-              src='/charles-grid-2.png'
-              width={256}
-              height={240}
-              alt='charles-grid-2'
-              className='object-scale-down'
-            />
-          </div>
-          <div>
+          <Image
+            src='/charles-grid-2.png'
+            width={256}
+            height={240}
+            alt='charles-grid-2'
+            className='object-cover gap-10'
+          />
+          {/* <div className='grid-cols-2'>
             <Image
               src='/charles-grid-3.png'
               width={123}
               height={115}
               alt='charles-grid-3'
-              className='object-scale-down'
+              className='object-cover'
             />
             <Image
               src='/charles-grid-4.png'
               width={123}
               height={115}
               alt='charles-grid-4'
-              className='object-fit'
+              className='object-cover'
             />
-          </div>
-        </div>
-        <div className='w-full rounded col-span-1'></div>
-        <div className='w-full '>
+          </div> */}
+
           <Image
             src='/charles-grid-5.png'
             width={256}

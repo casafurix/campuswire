@@ -9,11 +9,11 @@ export default function Hero() {
         PSAI 101: Pre-Seed & Angel Investing Class
       </h2>
       <br />
-      <div>
-        <span className='bg-gray-100 text-red-500 p-1 font-bold text-sm'>
+      <div className='space-x-4'>
+        <span className='bg-red-100 text-red-500 p-2 font-bold text-sm rounded-lg'>
           Business / Economics
         </span>
-        <span className='bg-gray-100 text-blue-500 p-1 font-bold text-sm'>
+        <span className='bg-blue-100 text-blue-500 p-2 font-bold text-sm rounded-lg'>
           Scholarships available
         </span>
       </div>
@@ -21,7 +21,7 @@ export default function Hero() {
       <br />
       <hr />
       <br />
-      <div className=''>
+      <div>
         <div className='flex'>
           <BsCameraVideo className='text-2xl' />
           <h5 className='text-md font-semibold px-2'>Live classes</h5>

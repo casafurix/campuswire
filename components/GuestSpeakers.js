@@ -5,7 +5,7 @@ export default function GuestSpeakers() {
     <>
       <h1 className='text-xl font-black'>Guest Speakers</h1>
       <div className='flex-wrap py-6'>
-        <div className='flex'>
+        <div className='flex gap-64'>
           <div className='flex'>
             <Image
               src='/user-cyan.png'
