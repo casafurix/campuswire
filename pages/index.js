@@ -5,7 +5,7 @@ import Layout from "./layout";
 
 export default function Home() {
   return (
-    <>
+    <div className='p-8'>
       <Navbar />
       <div className='flex-row flex'>
         <div className=''>
@@ -20,10 +20,10 @@ export default function Home() {
           <br />
           <br />
           <br />
-          <FixedCard />
+          {/* <FixedCard /> */}
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }

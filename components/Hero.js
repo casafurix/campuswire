@@ -5,7 +5,7 @@ import { IoMdGlobe } from "react-icons/io";
 export default function Hero() {
   return (
     <div>
-      <h2 className='font-black text-3xl'>
+      <h2 className='font-extrabold text-3xl'>
         PSAI 101: Pre-Seed & Angel Investing Class
       </h2>
       <br />
